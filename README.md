@@ -37,12 +37,16 @@ Abre tu navegador en **http://localhost:8080**
 5. Averigua los nombres de las propiedades que necesita TarjetaVertical. Búscalas en Sistema de Diseño, dentro del archivo **src/stories/componentes/Tarjetas/tarjeta.vertical.stories.js**
 
 
-6. Una vez que sepas los nombres de los campos, cambia al editor de código del ejercicio. En App.svelte, introduce los datos de la API en el componente TarjetaVertical
+6. Una vez que sepas los nombres de los campos, cambia al editor de código del ejercicio. 
 
-7. Elimina el código HTML que estaba antes en lugar de la recién agregada Tarjeta.
+7. En App.svelte, introduce el componente <TarjetaVertical/> en donde se muestra el HTML de cada participante.
+
+8. Introdúcele los datos de la API en el componente TarjetaVertical, usando atributos
+
+9. Elimina el código HTML que estaba antes en lugar de la recién agregada Tarjeta.
 
 
-8. Deberías ver los datos ya adecuadamente presentados.
+10. Deberías ver los datos ya adecuadamente presentados.
 
 
 
