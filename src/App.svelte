@@ -1,9 +1,18 @@
 <script>
 
-	import { Cabecera } from "@centroculturadigital-mx/ccd-sistema-diseno"
+	import { TarjetaVertical } from "@centroculturadigital-mx/ccd-sistema-diseno"
+	import { ThemeWrapper } from "@centroculturadigital-mx/svelte-themer";
 
-	import BarraLateral from "./BarraLateral.svelte"
-	import Contenido from "./Contenido.svelte"
+
+	import CabeceraEjercicio from "./CabeceraEjercicio.svelte"
+
+	import temas from "./temas/temas";
+
+
+
+	import personajes from "./datos/datos.js"
+
+
 
 </script>
 
@@ -17,16 +26,26 @@
 
 </style>
 
+<ThemeWrapper themes={temas}>
 
-<Cabecera/>
+	<CabeceraEjercicio/>
 
-<div class="Contenedor">
+	<main>
+			
+		<div class="Contenedor">
+		
+			{#each personajes as personaje}
+				<h4>
+					{personaje.name}
+				</h4>
+				<h6>
+					{personaje.origin.name}
+				</h6>
+				<img src={personaje.image} alt="">
+			{/each}
 
-	<BarraLateral/>
-	
-	<Contenido
-		titulo="Un super título nuevo"
-		texto="Occaecat cillum eu commodo fugiat non duis voluptate officia sint. Non adipisicing tempor anim amet ad reprehenderit anim. Occaecat voluptate non mollit irure fugiat. Cupidatat dolore adipisicing minim do minim amet elit nulla Lorem. Velit sit irure exercitation eiusmod deserunt incididunt voluptate consequat quis."
-	/>
-	
-</div>
+
+		</div>
+
+	</main>
+</ThemeWrapper>

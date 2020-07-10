@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@centroculturadigital-mx/ccd-sistema-diseno": "^0.2.1065",
+    "@centroculturadigital-mx/svelte-themer": "0.0.37",
     "file-loader": "^6.0.0"
   }
 }
