@@ -32,12 +32,12 @@ npm run dev
 Abre tu navegador en **http://localhost:8080**
 
 
-4. Abre el Ejercicio en tu editor de código
+4. Abre el Ejercicio en tu editor de código, y navega a App.svelte, lee el código.
 
-5. Averigua los nombres de las propiedades que necesita TarjetaVertical. Búscalas en Sistema de Diseño, dentro del archivo **tarjeta.vertical.stories.js**
+5. Averigua los nombres de las propiedades que necesita TarjetaVertical. Búscalas en Sistema de Diseño, dentro del archivo **src/stories/componentes/Tarjetas/tarjeta.vertical.stories.js**
 
 
-6. Una vez que sepas los nombres de los campos, introduce los datos de la API en el componente TarjetaVertical
+6. Una vez que sepas los nombres de los campos, cambia al editor de código del ejercicio. En App.svelte, introduce los datos de la API en el componente TarjetaVertical
 
 7. Elimina el código HTML que estaba antes en lugar de la recién agregada Tarjeta.
 

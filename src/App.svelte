@@ -19,10 +19,11 @@
 
 <style>
 
-.Contenedor {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-}
+	.Contenedor {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 2rem;
+	}
 
 </style>
 
